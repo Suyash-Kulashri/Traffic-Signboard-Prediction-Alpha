@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'styles.css' %}">
+
+  <title>Index</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1>Traffic Sign Prediction</h1>
+      <p>Predictions Made Smarter and Proactive. Say hello to effortless Predictions.</p>
+      <a href="signup_login/" class="cta-button">Get Started with Bot</a>
+    </div>
+  </header>
+  <!-- Centered Image Section -->
+  <div class="image-container">
+    <img src="{% static 'images/image.jpg' %}" alt="Traffic Signs" class="centered-image">
+  </div>
+
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      We create friendly, AI-driven solutions designed to enhance your academic life.
+      Our mission is to empower students by providing 24/7 AI support for studies, doubts, and more.
+    </p>
+    <div class="stats">
+      <div><span>20+</span> Institutions onboard</div>
+      <div><span>1,200+</span> Users active daily</div>
+      <div><span>50+</span> Features included</div>
+    </div>
+  </section>
+
+  <div class="container">
+    <h1>Why Us?</h1>
+    <p>Discover why we are the preferred choice for learners worldwide.</p>
+    <div class="section">
+      <div class="card">
+        <img src="static/images/image.jpg" alt="Learning Image">
+        <h2>Make your learning easy.</h2>
+        <p>
+          EdTech is your gateway to a world of opportunities. Our platform combines cutting-edge technology 
+          with expert instruction to help you achieve your learning goals. Discover why EdTech is the 
+          preferred choice for learners worldwide.
+        </p>
+      </div>
+      <div class="card">
+        <img src="static/images/image.jpg" alt="AI Assistance">
+        <h2>Clear Your Doubt with AI</h2>
+        <p>
+          EdTech's AI-powered assistance allows students to clarify doubts and gain insights instantly, 
+          making learning more interactive and dynamic. Experience the convenience of having a digital tutor 
+          at your fingertips.
+        </p>
+      </div>
+    </div>
+  </div>
+  <section id="plans">
+    <h2>Upcoming Plans</h2>
+    <p>For making prediction more easy.</p>
+    <div class="plan-cards">
+      <div class="plan">Heading 1</div>
+      <div class="plan">Heading 2</div>
+      <div class="plan">Heading 3</div>
+    </div>
+  </section>
+
+  <footer>
+    <h3>Join Our Team</h3>
+    <p>
+      Be part of EdBuddy to bring AI innovation to students everywhere. Send your resume to
+      <a href="mailto:jobs@edbuddy.com">jobs@edbuddy.com</a>.
+    </p>
+    <form action="#" method="post">
+      <input type="email" name="email" placeholder="Enter your email">
+      <button type="submit">Submit</button>
+    </form>
+    <p>© 2024 EdBuddy | Terms & Conditions</p>
+  </footer>
+</body>
+</html>
